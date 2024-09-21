@@ -30,7 +30,7 @@ body {
   font-weight: bold;
   letter-spacing: 4px;
   text-align: center; /* Centra el texto horizontalmente */
-  top: 50%; /* Centra el contenedor verticalmente */
+  top: 40%; /* Centra el contenedor verticalmente */
   transform: translateY(-50%); /* Ajusta el contenedor para que quede centrado */
 }
 
