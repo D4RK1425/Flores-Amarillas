@@ -29,7 +29,11 @@ body {
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
+  text-align: center; /* Centra el texto horizontalmente */
+  top: 50%; /* Centra el contenedor verticalmente */
+  transform: translateY(-50%); /* Ajusta el contenedor para que quede centrado */
 }
+
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
